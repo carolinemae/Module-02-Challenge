@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caroline Thomson Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Avatar -->
+  <img src="./assets/image01.jpg" alt="Avatar" id="portrait">
+  <!-- Fixed header -->
+    <header>
+      <h1>Caroline Thomson</h1>
+      <!-- Navigation bar -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#samples">Samples</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <!-- Left main section -->
+        <section class="left">
+          <!-- About Me -->
+          <!-- Class to offset anchor, id for anchor -->
+          <h1 class="anchor" id="aboutMe">About Me</h1>
+            <p>Hi! Welcome to my Portfolio. My name is Caroline and I currently reside in Adelaide, South Australia. I am studying at the University of Adelaide, participating in a Coding Bootcamp to hopefully gain some experience and knowledge to enter the world of Software Development.</p>
+            <p>I have had an interest in Web Development since I was as young as 11 years old. I started out playing around on Piczo with my own personal website, using HTML, CSS and a tiny bit of JavaScript. Since then I have had jobs where I was able to play with formulas, macros, and G-code; this is where I realised that I thoroughly enjoy working with codes and formulas to achieve a vast majority of outcomes.</p>
+          <!-- Samples -->
+          <h1 class="anchor" id="samples">Samples</h1>
+            <figure>
+              <a href="./assets/Horiseon Home Page.html" target="_blank"><img src="./assets/sample01.jpg" alt="Website design"></a>
+            </figure>
+            <figure>
+              <a href="./assets/CSS Snippet Cheatsheet.html" target="_blank"><img src="./assets/sample02.jpg" alt="CSS"></a>
+            </figure>
+        </section>
+        <!-- Right main section -->
+        <section class="right">
+          <!-- Contact Me -->
+          <h1 class="anchor" id="contact">Contact Me</h1>
+            <p>Contact me via email: <a href="mailto:carolinemaee@live.com">carolinemaee@live.com</a></p>
+            <p>Alternatively, complete the form below and I will get in contact with you.</p>
+            <!-- Contact form -->
+            <form>
+              <label for="name">Full name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="message">Message:</label>
+              <input type="message" id="message" name="message"><br><br>
+              <input type="button" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+      <span>Thanks for visiting!</span>
+    </footer>
+  </body>
+</html>
